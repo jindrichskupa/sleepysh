@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
+	fmt.Println("Let's go sleep.")
 	for {
-		fmt.Println("Infinite Loop 1")
+		fmt.Println("Still sleepy...")
 		time.Sleep(time.Second * 600)
 	}
 }
