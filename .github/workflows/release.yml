@@ -22,9 +22,9 @@ jobs:
       uses: softprops/action-gh-release@v0.1.5
       with:
         name: ${{ env.GITHUB_REF }}
-        files:
-          - sleepysh_linux_amd64
-          - sleepysh_linux_arm64
+        files: |
+          sleepysh_linux_amd64
+          sleepysh_linux_arm64
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
 
